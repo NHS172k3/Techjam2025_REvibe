@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
 
-df = pd.read_csv('extended_videos_with_subtitles.csv')
+df = pd.read_csv('full_video_dataset_with_engagement.csv')
 
 captions = (
     df['subtitles']     
