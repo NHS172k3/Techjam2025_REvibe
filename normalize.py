@@ -1,6 +1,6 @@
 import pandas as pd
 
-stats = ['likes', 'comment_count', 'shares', 'saved_count', 'viewer_retention_percentage']
+base_stats = ['likes', 'comment_count', 'shares', 'saved_count', 'viewer_retention_percentage', 'sent_score_avg']
 
 def normalize_and_score(df, money_per_cluster=1000):
     """
@@ -9,6 +9,7 @@ def normalize_and_score(df, money_per_cluster=1000):
     and assigns money proportionally.
     Returns the updated DataFrame.
     """
+    stats = base_stats.copy()
     def normalize_group(group):
         normed = group[stats].apply(lambda x: (x - x.min()) / (x.max() - x.min()) if x.max() > x.min() else 0)
         group_normed = group.copy()
@@ -24,5 +25,5 @@ def normalize_and_score(df, money_per_cluster=1000):
 
 if __name__ == "__main__":
     df = pd.read_csv('full_video_dataset_with_engagement.csv')
-    df_final = normalize_and_score(df)
-    print(df_final[['video_id', 'cluster', 'video_score', 'category_total_score', 'video_money'] + [f'norm_{s}' for s in stats]])
+    df_final = normalize_and_score(df, extra_stats=['sent_score_avg'])
+    print(df_final[['video_id', 'cluster', 'video_score', 'category_total_score', 'video_money', 'sent_score_avg'] + [f'norm_{s}' for s in base_stats]])
