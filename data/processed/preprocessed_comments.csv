@@ -1,0 +1,501 @@
+video_id,user_id,comment,label,is_quality_related,quality_label,cleaned_comment,tokens,sentiment_score
+82,1081,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+11,1010,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+461,1460,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+447,1446,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+26,1025,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+244,1243,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+395,1394,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+223,1222,"Not bad, not great either",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+304,1303,"This made my whole day better, tysm! ",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+415,1414,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+411,1410,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+396,1395,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+189,1188,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+71,1070,Singing is a gift. U didn’t receive it. ,negative,False,1,singing is a gift. u didn’t receive it.,"['singing', 'is', 'a', 'gift', '.', 'u', 'didn', '’', 't', 'receive', 'it', '.']",0
+234,1233,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+397,1396,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+377,1376,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+255,1254,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+196,1195,Your video just cured my depression. Do you take cash or card?,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+412,1411,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+442,1441,Singing is a gift. U didn’t receive it. ,negative,False,1,singing is a gift. u didn’t receive it.,"['singing', 'is', 'a', 'gift', '.', 'u', 'didn', '’', 't', 'receive', 'it', '.']",0
+482,1481,Ok but what’s the context here? ,neutral,False,1,ok but what’s the context here?,"['ok', 'but', 'what', '’', 's', 'the', 'context', 'here', '?']",1
+218,1217,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+76,1075,Ok but what’s the context here? ,neutral,False,1,ok but what’s the context here?,"['ok', 'but', 'what', '’', 's', 'the', 'context', 'here', '?']",1
+282,1281,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+118,1117,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+88,1087,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+93,1092,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+183,1182,Singing is a gift. U didn’t receive it. ,negative,False,1,singing is a gift. u didn’t receive it.,"['singing', 'is', 'a', 'gift', '.', 'u', 'didn', '’', 't', 'receive', 'it', '.']",0
+342,1341,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+317,1316,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+441,1440,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+49,1048,Singing is a gift. U didn’t receive it. ,negative,False,1,singing is a gift. u didn’t receive it.,"['singing', 'is', 'a', 'gift', '.', 'u', 'didn', '’', 't', 'receive', 'it', '.']",0
+34,1033,Ok but what’s the context here? ,neutral,False,1,ok but what’s the context here?,"['ok', 'but', 'what', '’', 's', 'the', 'context', 'here', '?']",1
+352,1351,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+499,1498,"Meh, it’s fine I guess",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+212,1211,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+414,1413,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+471,1470,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+357,1356,Ok but what’s the context here? ,neutral,False,1,ok but what’s the context here?,"['ok', 'but', 'what', '’', 's', 'the', 'context', 'here', '?']",1
+410,1409,"Certified slay, no notes  ",positive,False,1,"certified slay, no notes","['certified', 'slay', ',', 'no', 'notes']",2
+217,1216,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+390,1389,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+200,1199,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+400,1399,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+466,1465,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+177,1176,This gave me main character energy  ,positive,False,1,this gave me main character energy,"['this', 'gave', 'me', 'main', 'character', 'energy']",2
+99,1098,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+362,1361,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+417,1416,"This made my whole day better, tysm! ",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+348,1347,"Unwatchable, my eyes need therapy",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+351,1350,That edit was painful to sit through,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+480,1479,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+100,1099,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+360,1359,"Certified slay, no notes  ",positive,False,1,"certified slay, no notes","['certified', 'slay', ',', 'no', 'notes']",2
+449,1448,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+375,1374,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+453,1452,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+61,1060,Why are you so perfect? Are you a toaster?,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+439,1438,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+451,1450,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+276,1275,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+407,1406,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+247,1246,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+56,1055,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+256,1255,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+476,1475,How are you real?? Unreal talent,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+438,1437,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+477,1476,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+225,1224,This was kinda mid ngl,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+399,1398,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+33,1032,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+274,1273,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+318,1317,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+98,1097,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+168,1167,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+169,1168,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+108,1107,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+208,1207,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+422,1421,"Yo, dude, you won't believe what just happened.",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+332,1331,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+413,1412,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+421,1420,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+364,1363,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+268,1267,Pretty mid but I see the effort ,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+470,1469,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+479,1478,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+75,1074,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+313,1312,"Certified slay, no notes  ",positive,False,1,"certified slay, no notes","['certified', 'slay', ',', 'no', 'notes']",2
+392,1391,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+427,1426,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+14,1013,Singing is a gift. U didn’t receive it.,negative,False,1,singing is a gift. u didn’t receive it.,"['singing', 'is', 'a', 'gift', '.', 'u', 'didn', '’', 't', 'receive', 'it', '.']",0
+57,1056,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+66,1065,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+127,1126,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+243,1242,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+336,1335,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+90,1089,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+267,1266,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+233,1232,"Certified slay, no notes ",positive,False,1,"certified slay, no notes","['certified', 'slay', ',', 'no', 'notes']",2
+459,1458,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+469,1468,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+239,1238,Pretty mid but I see the effort ,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+103,1102,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+132,1131,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+264,1263,"Drip is immaculate, I’m stealing this look ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+448,1447,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+455,1454,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+277,1276,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+46,1045,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+331,1330,"Average content, nothing special ",neutral,False,1,"average content, nothing special","['average', 'content', ',', 'nothing', 'special']",1
+468,1467,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+406,1405,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+172,1171,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+341,1340,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+486,1485,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+423,1422,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+162,1161,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+231,1230,"Certified slay, no notes  ",positive,False,1,"certified slay, no notes","['certified', 'slay', ',', 'no', 'notes']",2
+85,1084,"This made my whole day better, tysm! ",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+458,1457,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+474,1473,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+10,1009,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+381,1380,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+158,1157,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+228,1227,Ok but what’s the context here?,neutral,False,1,ok but what’s the context here?,"['ok', 'but', 'what', '’', 's', 'the', 'context', 'here', '?']",1
+222,1221,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+311,1310,This gave me main character energy  ,positive,False,1,this gave me main character energy,"['this', 'gave', 'me', 'main', 'character', 'energy']",2
+315,1314,Why are you so perfect? Are you a toaster?,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+467,1466,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+2,1001,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+68,1067,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+393,1392,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+237,1236,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+490,1489,"Couldn’t finish watching, had to scroll",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+232,1231,"Average content, nothing special ",neutral,False,1,"average content, nothing special","['average', 'content', ',', 'nothing', 'special']",1
+452,1451,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+120,1119,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+178,1177,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+374,1373,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+246,1245,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+307,1306,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+240,1239,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+355,1354,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+213,1212,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+287,1286,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+123,1122,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+144,1143,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+420,1419,Your video just cured my depression. Do you take cash or card?,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+494,1493,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+288,1287,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+141,1140,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+335,1334,"This made my whole day better, tysm! ",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+416,1415,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+462,1461,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+145,1144,"Couldn’t finish watching, had to scroll",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+175,1174,Singing is a gift. U didn’t receive it. ,negative,False,1,singing is a gift. u didn’t receive it.,"['singing', 'is', 'a', 'gift', '.', 'u', 'didn', '’', 't', 'receive', 'it', '.']",0
+371,1370,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+236,1235,Singing is a gift. U didn’t receive it. ,negative,False,1,singing is a gift. u didn’t receive it.,"['singing', 'is', 'a', 'gift', '.', 'u', 'didn', '’', 't', 'receive', 'it', '.']",0
+102,1101,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+457,1456,This gave me main character energy  ,positive,False,1,this gave me main character energy,"['this', 'gave', 'me', 'main', 'character', 'energy']",2
+89,1088,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+303,1302,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+444,1443,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+346,1345,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+147,1146,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+40,1039,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+387,1386,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+65,1064,"Certified slay, no notes ",positive,False,1,"certified slay, no notes","['certified', 'slay', ',', 'no', 'notes']",2
+160,1159,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+386,1385,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+353,1352,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+425,1424,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+312,1311,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+454,1453,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+270,1269,This gave me main character energy  ,positive,False,1,this gave me main character energy,"['this', 'gave', 'me', 'main', 'character', 'energy']",2
+42,1041,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+48,1047,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+368,1367,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+94,1093,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+281,1280,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+77,1076,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+418,1417,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+384,1383,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+350,1349,This gave me main character energy  ,positive,False,1,this gave me main character energy,"['this', 'gave', 'me', 'main', 'character', 'energy']",2
+491,1490,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+403,1402,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+55,1054,Singing is a gift. U didn’t receive it. ,negative,False,1,singing is a gift. u didn’t receive it.,"['singing', 'is', 'a', 'gift', '.', 'u', 'didn', '’', 't', 'receive', 'it', '.']",0
+378,1377,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+192,1191,"This made my whole day better, tysm! ",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+72,1071,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+195,1194,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+484,1483,"Couldn’t finish watching, had to scroll",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+235,1234,"Certified slay, no notes  ",positive,False,1,"certified slay, no notes","['certified', 'slay', ',', 'no', 'notes']",2
+347,1346,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+450,1449,"Not bad, not great either",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+4,1003,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+96,1095,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+38,1037,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+28,1027,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+258,1257,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+363,1362,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+495,1494,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+496,1495,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+443,1442,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+316,1315,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+272,1271,"Certified slay, no notes  ",positive,False,1,"certified slay, no notes","['certified', 'slay', ',', 'no', 'notes']",2
+295,1294,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+5,1004,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+30,1029,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+187,1186,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+302,1301,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+273,1272,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+361,1360,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+171,1170,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+70,1069,Singing is a gift. U didn’t receive it. ,negative,False,1,singing is a gift. u didn’t receive it.,"['singing', 'is', 'a', 'gift', '.', 'u', 'didn', '’', 't', 'receive', 'it', '.']",0
+174,1173,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+385,1384,This gave me main character energy  ,positive,False,1,this gave me main character energy,"['this', 'gave', 'me', 'main', 'character', 'energy']",2
+6,1005,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+156,1155,Pretty mid but I see the effort ,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+328,1327,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+293,1292,How are you real?? Unreal talent,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+91,1090,"Yo, dude, you won't believe what just happened.",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+294,1293,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+481,1480,This gave me main character energy  ,positive,False,1,this gave me main character energy,"['this', 'gave', 'me', 'main', 'character', 'energy']",2
+314,1313,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+354,1353,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+64,1063,This gave me main character energy  ,positive,False,1,this gave me main character energy,"['this', 'gave', 'me', 'main', 'character', 'energy']",2
+12,1011,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+296,1295,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+131,1130,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+138,1137,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+251,1250,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+254,1253,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+19,1018,You had potential but wasted it ,negative,False,1,you had potential but wasted it,"['you', 'had', 'potential', 'but', 'wasted', 'it']",0
+62,1061,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+428,1427,"Couldn’t finish watching, had to scroll",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+445,1444,Ok but what’s the context here? ,neutral,False,1,ok but what’s the context here?,"['ok', 'but', 'what', '’', 's', 'the', 'context', 'here', '?']",1
+21,1020,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+81,1080,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+136,1135,The editing? The vibes? Chef’s kiss ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+271,1270,Pretty mid but I see the effort ,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+142,1141,This gave me main character energy  ,positive,False,1,this gave me main character energy,"['this', 'gave', 'me', 'main', 'character', 'energy']",2
+401,1400,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+430,1429,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+105,1104,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+320,1319,Pretty mid but I see the effort ,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+435,1434,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+7,1006,You had potential but wasted it ,negative,False,1,you had potential but wasted it,"['you', 'had', 'potential', 'but', 'wasted', 'it']",0
+140,1139,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+250,1249,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+376,1375,Pretty mid but I see the effort ,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+84,1083,Your video just cured my depression. Do you take cash or card?,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+51,1050,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+52,1051,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+429,1428,You had potential but wasted it ,negative,False,1,you had potential but wasted it,"['you', 'had', 'potential', 'but', 'wasted', 'it']",0
+59,1058,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+176,1175,"Average content, nothing special ",neutral,False,1,"average content, nothing special","['average', 'content', ',', 'nothing', 'special']",1
+83,1082,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+198,1197,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+204,1203,You had potential but wasted it ,negative,False,1,you had potential but wasted it,"['you', 'had', 'potential', 'but', 'wasted', 'it']",0
+242,1241,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+210,1209,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+92,1091,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+186,1185,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+259,1258,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+112,1111,Ok but what’s the context here? ,neutral,False,1,ok but what’s the context here?,"['ok', 'but', 'what', '’', 's', 'the', 'context', 'here', '?']",1
+464,1463,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+207,1206,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+279,1278,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+22,1021,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+224,1223,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+17,1016,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+388,1387,Lowkey the best thing on my FYP today,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+15,1014,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+206,1205,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+104,1103,Pretty mid but I see the effort ,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+16,1015,"Average content, nothing special ",neutral,False,1,"average content, nothing special","['average', 'content', ',', 'nothing', 'special']",1
+329,1328,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+86,1085,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+179,1178,Pretty mid but I see the effort,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+36,1035,"This made my whole day better, tysm! ",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+433,1432,"This made my whole day better, tysm!",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+431,1430,"Unwatchable, my eyes need therapy",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+63,1062,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+106,1105,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+121,1120,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+298,1297,You had potential but wasted it ,negative,False,1,you had potential but wasted it,"['you', 'had', 'potential', 'but', 'wasted', 'it']",0
+493,1492,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+139,1138,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+409,1408,"This made my whole day better, tysm!",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+167,1166,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+47,1046,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+326,1325,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+492,1491,I’m glad you’re coming out of your comfort zone — time to go back.,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+20,1019,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+211,1210,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+146,1145,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+216,1215,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+18,1017,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+197,1196,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+209,1208,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+24,1023,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+359,1358,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+489,1488,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+408,1407,"Certified slay, no notes ",positive,False,1,"certified slay, no notes","['certified', 'slay', ',', 'no', 'notes']",2
+260,1259,Ok but what’s the context here? ,neutral,False,1,ok but what’s the context here?,"['ok', 'but', 'what', '’', 's', 'the', 'context', 'here', '?']",1
+380,1379,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+87,1086,"This made my whole day better, tysm! ",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+284,1283,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+339,1338,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+128,1127,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+286,1285,Pretty mid but I see the effort ,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+394,1393,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+29,1028,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+292,1291,You had potential but wasted it ,negative,False,1,you had potential but wasted it,"['you', 'had', 'potential', 'but', 'wasted', 'it']",0
+124,1123,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+321,1320,Ok but what’s the context here? ,neutral,False,1,ok but what’s the context here?,"['ok', 'but', 'what', '’', 's', 'the', 'context', 'here', '?']",1
+269,1268,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+97,1096,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+181,1180,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+148,1147,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+54,1053,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+194,1193,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+199,1198,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+109,1108,I’m glad you’re coming out of your comfort zone — time to go back.,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+262,1261,Bro thought he ate ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+432,1431,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+229,1228,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+95,1094,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+134,1133,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+373,1372,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+114,1113,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+366,1365,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+370,1369,"Not bad, not great either",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+275,1274,This gave me main character energy  ,positive,False,1,this gave me main character energy,"['this', 'gave', 'me', 'main', 'character', 'energy']",2
+185,1184,Pretty mid but I see the effort ,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+182,1181,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+456,1455,"Certified slay, no notes  ",positive,False,1,"certified slay, no notes","['certified', 'slay', ',', 'no', 'notes']",2
+126,1125,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+202,1201,Pretty mid but I see the effort ,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+337,1336,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+13,1012,"Average content, nothing special ",neutral,False,1,"average content, nothing special","['average', 'content', ',', 'nothing', 'special']",1
+125,1124,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+159,1158,"Certified slay, no notes  ",positive,False,1,"certified slay, no notes","['certified', 'slay', ',', 'no', 'notes']",2
+475,1474,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+309,1308,You had potential but wasted it ,negative,False,1,you had potential but wasted it,"['you', 'had', 'potential', 'but', 'wasted', 'it']",0
+291,1290,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+325,1324,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+369,1368,"Average content, nothing special",neutral,False,1,"average content, nothing special","['average', 'content', ',', 'nothing', 'special']",1
+154,1153,Why are you so perfect? Are you a toaster?,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+356,1355,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+245,1244,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+119,1118,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+241,1240,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+319,1318,I’m glad you’re coming out of your comfort zone — time to go back.,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+261,1260,You had potential but wasted it ,negative,False,1,you had potential but wasted it,"['you', 'had', 'potential', 'but', 'wasted', 'it']",0
+219,1218,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+107,1106,Does it hurt? Though?,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+497,1496,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+367,1366,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+44,1043,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+79,1078,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+152,1151,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+180,1179,Ok but what’s the context here? ,neutral,False,1,ok but what’s the context here?,"['ok', 'but', 'what', '’', 's', 'the', 'context', 'here', '?']",1
+205,1204,"This made my whole day better, tysm!",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+151,1150,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+203,1202,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+249,1248,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+405,1404,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+73,1072,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+129,1128,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+465,1464,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+8,1007,"Average content, nothing special ",neutral,False,1,"average content, nothing special","['average', 'content', ',', 'nothing', 'special']",1
+53,1052,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+345,1344,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+170,1169,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+265,1264,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+155,1154,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+278,1277,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+389,1388,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+324,1323,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+498,1497,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+149,1148,"This made my whole day better, tysm! ",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+110,1109,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+327,1326,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+280,1279,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+166,1165,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+3,1002,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+379,1378,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+220,1219,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+23,1022,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+344,1343,Pretty mid but I see the effort,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+43,1042,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+41,1040,"Certified slay, no notes  ",positive,False,1,"certified slay, no notes","['certified', 'slay', ',', 'no', 'notes']",2
+164,1163,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+257,1256,How are you real?? Unreal talent ,positive,False,1,how are you real?? unreal talent,"['how', 'are', 'you', 'real', '?', '?', 'unreal', 'talent']",2
+117,1116,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+252,1251,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+398,1397,"Solid attempt, could be better",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+74,1073,"Certified slay, no notes  ",positive,False,1,"certified slay, no notes","['certified', 'slay', ',', 'no', 'notes']",2
+35,1034,Your video just cured my depression. Do you take cash or card?,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+122,1121,Singing is a gift. U didn’t receive it. ,negative,False,1,singing is a gift. u didn’t receive it.,"['singing', 'is', 'a', 'gift', '.', 'u', 'didn', '’', 't', 'receive', 'it', '.']",0
+472,1471,Ong you go girl. Don’t come back. ,negative,False,1,ong you go girl. don’t come back.,"['ong', 'you', 'go', 'girl', '.', 'don', '’', 't', 'come', 'back', '.']",0
+333,1332,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+133,1132,"Solid attempt, could be better",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+330,1329,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+358,1357,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+440,1439,The editing? The vibes? Chef’s kiss  ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+266,1265,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+446,1445,"Meh, it’s fine I guess",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+9,1008,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+283,1282,The editing? The vibes? Chef’s kiss ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+424,1423,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+372,1371,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+483,1482,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+157,1156,"This made my whole day better, tysm!",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+285,1284,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+383,1382,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+340,1339,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+434,1433,Why are you so perfect? Are you a toaster?,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+301,1300,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+150,1149,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+338,1337,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+226,1225,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+58,1057,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+31,1030,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+308,1307,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+27,1026,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+290,1289,This gave me main character energy  ,positive,False,1,this gave me main character energy,"['this', 'gave', 'me', 'main', 'character', 'energy']",2
+300,1299,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+60,1059,Pretty mid but I see the effort ,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+193,1192,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+78,1077,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+478,1477,Singing is a gift. U didn’t receive it. ,negative,False,1,singing is a gift. u didn’t receive it.,"['singing', 'is', 'a', 'gift', '.', 'u', 'didn', '’', 't', 'receive', 'it', '.']",0
+238,1237,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+306,1305,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+365,1364,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+69,1068,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+113,1112,Pretty mid but I see the effort,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+214,1213,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+130,1129,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+45,1044,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+500,1499,"Didn’t hate it, didn’t love it ",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+165,1164,Bro thought he ate  ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+201,1200,Lowkey the best thing on my FYP today ,positive,False,1,lowkey the best thing on my fyp today,"['lowkey', 'the', 'best', 'thing', 'on', 'my', 'fyp', 'today']",2
+263,1262,"This made my whole day better, tysm! ",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+188,1187,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+248,1247,Ok but what’s the context here? ,neutral,False,1,ok but what’s the context here?,"['ok', 'but', 'what', '’', 's', 'the', 'context', 'here', '?']",1
+190,1189,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+349,1348,"Whoa, whoa, whoa, whoa, whoa.",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
+184,1183,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+488,1487,This gave me main character energy  ,positive,False,1,this gave me main character energy,"['this', 'gave', 'me', 'main', 'character', 'energy']",2
+485,1484,Worst thing on my FYP today ,negative,False,1,worst thing on my fyp today,"['worst', 'thing', 'on', 'my', 'fyp', 'today']",0
+460,1459,"Unwatchable, my eyes need therapy",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+137,1136,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+334,1333,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+143,1142,Singing is a gift. U didn’t receive it. ,negative,False,1,singing is a gift. u didn’t receive it.,"['singing', 'is', 'a', 'gift', '.', 'u', 'didn', '’', 't', 'receive', 'it', '.']",0
+153,1152,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+297,1296,"Not bad, not great either",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+323,1322,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+487,1486,This was kinda mid ngl ,negative,False,1,this was kinda mid ngl,"['this', 'was', 'kinda', 'mid', 'ngl']",0
+382,1381,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+343,1342,"Solid attempt, could be better ",neutral,False,1,"solid attempt, could be better","['solid', 'attempt', ',', 'could', 'be', 'better']",1
+230,1229,"Unwatchable, my eyes need therapy ",negative,True,0,"unwatchable, my eyes need therapy","['unwatchable', ',', 'my', 'eyes', 'need', 'therapy']",0
+426,1425,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+50,1049,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+1,1000,"If I had a dollar for every time I watched this, I’d buy TikTok. ",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+135,1134,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+67,1066,"This made my whole day better, tysm! ",positive,False,1,"this made my whole day better, tysm!","['this', 'made', 'my', 'whole', 'day', 'better', ',', 'tysm', '!']",2
+173,1172,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+436,1435,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+419,1418,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+391,1390,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+305,1304,Singing is a gift. U didn’t receive it. ,negative,False,1,singing is a gift. u didn’t receive it.,"['singing', 'is', 'a', 'gift', '.', 'u', 'didn', '’', 't', 'receive', 'it', '.']",0
+310,1309,The editing? The vibes? Chef’s kiss ,positive,True,2,the editing? the vibes? chef’s kiss,"['the', 'editing', '?', 'the', 'vibes', '?', 'chef', '’', 's', 'kiss']",2
+80,1079,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+404,1403,Your video just cured my depression. Do you take cash or card? ,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+191,1190,Does it hurt? Though? ,neutral,False,1,does it hurt? though?,"['does', 'it', 'hurt', '?', 'though', '?']",1
+299,1298,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+463,1462,Ok but what’s the context here? ,neutral,False,1,ok but what’s the context here?,"['ok', 'but', 'what', '’', 's', 'the', 'context', 'here', '?']",1
+111,1110,"Couldn’t finish watching, had to scroll ",negative,True,0,"couldn’t finish watching, had to scroll","['couldn', '’', 't', 'finish', 'watching', ',', 'had', 'to', 'scroll']",0
+115,1114,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+116,1115,Bro thought he ate ,negative,False,1,bro thought he ate,"['bro', 'thought', 'he', 'ate']",0
+322,1321,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+25,1024,"Not bad, not great either ",neutral,False,1,"not bad, not great either","['not', 'bad', ',', 'not', 'great', 'either']",1
+161,1160,That edit was painful to sit through ,negative,True,0,that edit was painful to sit through,"['that', 'edit', 'was', 'painful', 'to', 'sit', 'through']",0
+215,1214,"If I had a dollar for every time I watched this, I’d buy TikTok.",positive,False,1,"if i had a dollar for every time i watched this, i’d buy tiktok.","['if', 'i', 'had', 'a', 'dollar', 'for', 'every', 'time', 'i', 'watched', 'this', ',', 'i', '’', 'd', 'buy', 'tiktok', '.']",2
+32,1031,Pretty mid but I see the effort ,neutral,False,1,pretty mid but i see the effort,"['pretty', 'mid', 'but', 'i', 'see', 'the', 'effort']",1
+253,1252,"Meh, it’s fine I guess ",neutral,False,1,"meh, it’s fine i guess","['meh', ',', 'it', '’', 's', 'fine', 'i', 'guess']",1
+289,1288,This gave me main character energy  ,positive,False,1,this gave me main character energy,"['this', 'gave', 'me', 'main', 'character', 'energy']",2
+37,1036,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+473,1472,Why are you so perfect? Are you a toaster? ,positive,False,1,why are you so perfect? are you a toaster?,"['why', 'are', 'you', 'so', 'perfect', '?', 'are', 'you', 'a', 'toaster', '?']",2
+101,1100,"Yo, dude, you won't believe what just happened. ",neutral,False,1,"yo, dude, you won't believe what just happened.","['yo', ',', 'dude', ',', 'you', 'wo', ""n't"", 'believe', 'what', 'just', 'happened', '.']",1
+402,1401,"Drip is immaculate, I’m stealing this look  ",positive,False,1,"drip is immaculate, i’m stealing this look","['drip', 'is', 'immaculate', ',', 'i', '’', 'm', 'stealing', 'this', 'look']",2
+39,1038,Your video just cured my depression. Do you take cash or card?,positive,False,1,your video just cured my depression. do you take cash or card?,"['your', 'video', 'just', 'cured', 'my', 'depression', '.', 'do', 'you', 'take', 'cash', 'or', 'card', '?']",2
+437,1436,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+227,1226,"Didn’t hate it, didn’t love it",neutral,False,1,"didn’t hate it, didn’t love it","['didn', '’', 't', 'hate', 'it', ',', 'didn', '’', 't', 'love', 'it']",1
+221,1220,I’m glad you’re coming out of your comfort zone — time to go back. ,negative,False,1,i’m glad you’re coming out of your comfort zone — time to go back.,"['i', '’', 'm', 'glad', 'you', '’', 're', 'coming', 'out', 'of', 'your', 'comfort', 'zone', '—', 'time', 'to', 'go', 'back', '.']",0
+163,1162,"Whoa, whoa, whoa, whoa, whoa. ",neutral,False,1,"whoa, whoa, whoa, whoa, whoa.","['whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', ',', 'whoa', '.']",1
