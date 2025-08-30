@@ -1,5 +1,9 @@
-export default function VideoDetails({ video }: { video: any }) {
-  return (
+import type { Video } from "../types/video.js";
+
+export default function VideoDetails({ video }: { video: Video }) {
+    
+  
+    return (
     <view style="padding: 16px; font-family: sans-serif; margin: 50px 0 8px;">
         <view style="display: flex; flex-direction: row; align-items: center; gap: 12px; margin-bottom: 16px;">
         <image
@@ -9,7 +13,7 @@ export default function VideoDetails({ video }: { video: any }) {
         <view style="display: flex; flex-direction: column;">
             <text style="font-size: 16px; font-weight: bold;">{video.title}</text>
             <text style="font-size: 12px; color: #aaa;">Posted on: {video.datePosted}</text>
-            <text style="font-size: 12px;">Category: Education</text>
+            <text style="font-size: 12px;">Category: {video.filePath}</text>
         </view>
     </view>
 
@@ -24,12 +28,16 @@ export default function VideoDetails({ video }: { video: any }) {
 
       <view class="card" style="padding: 12px; margin-bottom: 16px;">
         <text style="font-weight: bold;">Aggregate Score</text>
-        <text style="font-size: 24px; margin-top: 8px;">87</text>
-        <view style="height: 100px; display: flex; align-items: center; justify-content: center;">
-          <text>[Graph Placeholder]</text>
+        <text style="font-size: 24px; margin-top: 8px;">{video.aggregateScore}</text>
+        <view style="height: 200px; display: flex; align-items: center; justify-content: center;">
+          <image 
+            src={video.filePath} 
+            mode="aspectFit" 
+            style="width:400px;height:200px" 
+          />
         </view>
         <text style="font-size: 12px; color: #aaa; text-align: center;">
-          Your video surpasses 90% of others in Education.
+          Your video surpasses {video.categoryPercentage}% of others in Education.
         </text>
       </view>
 
@@ -37,19 +45,19 @@ export default function VideoDetails({ video }: { video: any }) {
         <text style="font-weight: bold;">Advanced Metrics</text>
 
         <view style="margin-top: 12px;">
-          <text>📊 Engagement Z-score: 1.42</text>
+          <text>📊 Engagement Z-score: {video.engagementZScore}</text>
         </view>
         <view>
-          <text>🧠 Comment Sentiment: Positive</text>
+          <text>🧠 Comment Sentiment: {video.commentSentimentMultiplier}</text>
         </view>
         <view>
-          <text>🌍 Societal Impact: Moderate</text>
+          <text>🌍 Societal Impact: {video.societalImpactMultiplier}</text>
         </view>
         <view>
-          <text>⭐ Aggregate Score: 87</text>
+          <text>⭐ Aggregate Score: {video.aggregateScore}</text>
         </view>
         <view>
-          <text>💵 Total Payout: $36.28</text>
+          <text>💵 Total Payout: ${video.totalPayout}</text>
         </view>
       </view>
     </view>

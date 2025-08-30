@@ -1,4 +1,3 @@
-import { useState } from "@lynx-js/react/legacy-react-runtime";
 import { type Video } from "../types/video.js";
 
 interface VideoCardProps {
