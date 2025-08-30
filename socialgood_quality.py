@@ -153,16 +153,13 @@ def score_captions(
 
 
 def score_file(
-    input_path,
+    input_df,
     text_col="subtitles",
     nli_model="facebook/bart-large-mnli",
     device=-1
 ):
 
-    if input_path.lower().endswith(".parquet"):
-        df = pd.read_parquet(input_path)
-    else:
-        df = pd.read_csv(input_path)
+    df = input_df
 
     if text_col not in df.columns:
         raise KeyError(f"Input file must contain column '{text_col}'")
@@ -198,12 +195,8 @@ def score_file(
     else:
         out["total_score"] = 0.5
 
-    out["multiplier"] = 0.9 + 0.2 * out["total_score"]
+    out["social_value_multiplier"] = 0.9 + 0.2 * out["total_score"]
 
     if "score_society_contributing" in out.columns:
         out = out.drop(columns=["score_society_contributing"])    
     return out
-
-if __name__ == "__main__":
-    out = score_file("full_video_dataset_with_comments_scored_per_comment.csv","subtitles")
-    print(out)

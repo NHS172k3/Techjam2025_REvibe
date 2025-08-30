@@ -110,19 +110,24 @@ def filter_quality_content(df, cluster_column='cluster', threshold_multiplier=1.
             std = cluster_data[metric].std() if cluster_data[metric].std() > 0 else 1
             z_scores[metric] = (cluster_data[metric] - mean) / std
         
-        # Weights emphasizing the integrated score
+        # Weights emphasizing viewer retention and engagement
         weights = {
             'views': 0.20,
-            'likes': 0.15, 
-            'shares': 0.15, 
-            'viewer_retention_percentage': 0.20,
-            'sentiment_quality_score': 0.30  # Highest weight on integrated score
+            'likes': 0.20,
+            'shares': 0.20,
+            'viewer_retention_percentage': 0.40
         }
-        
+
         composite_score = pd.Series(0, index=cluster_data.index)
         for m in available_metrics:
-            composite_score += z_scores[m] * weights.get(m, 0.1)
-        
+            composite_score += z_scores[m] * weights.get(m, 0.0)
+
+        # Apply multipliers
+        if 'quality_sentiment_multiplier' in cluster_data.columns:
+            composite_score *= cluster_data['quality_sentiment_multiplier']
+        if 'social_value_multiplier' in cluster_data.columns:
+            composite_score *= cluster_data['social_value_multiplier']
+
         quality_threshold = 0.0 * threshold_multiplier
         df.loc[cluster_mask, 'quality_flag'] = composite_score > quality_threshold
     

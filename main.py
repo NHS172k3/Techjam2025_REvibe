@@ -1,9 +1,11 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+import matplotlib
+matplotlib.use('Agg')
+import json
 import matplotlib.pyplot as plt
 import seaborn as sns
 from ST_tokenize import sort_category  
+from socialgood_quality import score_file
 from normalize import normalize_and_score, allocate_cluster_funds, filter_quality_content, apply_tiktok_specific_rules
 
 def analyze_video_sentiment_quality(df):
@@ -137,6 +139,14 @@ def analyze_video_sentiment_quality(df):
         # Fill missing values
         df['sentiment_quality_score'] = df['sentiment_quality_score'].fillna(0.5)
         df['analyzed_comments_count'] = df['analyzed_comments_count'].fillna(0)
+
+        min_score = df['sentiment_quality_score'].min()
+        max_score = df['sentiment_quality_score'].max()
+        if max_score > min_score:
+            df['quality_sentiment_multiplier'] = 0.9 + 0.2 * (df['sentiment_quality_score'] - min_score) / (max_score - min_score)
+        else:
+            df['quality_sentiment_multiplier'] = 1.0
+
         
         # Create interpretation categories
         df['score_interpretation'] = pd.cut(
@@ -160,7 +170,13 @@ def analyze_video_sentiment_quality(df):
         
         # Add the missing score_interpretation column
         df['score_interpretation'] = "Average"  # Default interpretation
-        
+
+        min_score = df['sentiment_quality_score'].min()
+        max_score = df['sentiment_quality_score'].max()
+        if max_score > min_score:
+            df['quality_sentiment_multiplier'] = 0.9 + 0.2 * (df['sentiment_quality_score'] - min_score) / (max_score - min_score)
+        else:
+            df['quality_sentiment_multiplier'] = 1.0
         return df
 
 def create_visualizations(df_final, cluster_allocations):
@@ -234,14 +250,26 @@ def create_visualizations(df_final, cluster_allocations):
     return fig
 
 def main():
-    print("🚀 Starting TikTok Profit Sharing with Integrated Sentiment-Quality Analysis...")
-    
+    print("🚀 Starting TikTok Profit Sharing with Integrated Sentiment-Quality Analysis...") 
+
     # Load data
     print("📂 Loading data...")
     df = pd.read_csv('full_video_dataset_with_engagement.csv')
-    # df = df.head(50)  # Uncomment to test with first 50 videos
     print(f"Loaded {len(df)} videos")
-    
+
+    with open("to_insert.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # If it's a single object (dict), wrap in a list so pandas can handle it
+    if isinstance(data, dict):
+        data = [data]
+
+    # 3. Convert JSON records to a DataFrame
+    new_df = pd.DataFrame(data)
+
+    # 4. Append to your existing DataFrame
+    df = pd.concat([df, new_df], ignore_index=True)
+
     # Cluster videos by content similarity
     print("🔍 Clustering videos by content similarity...")
     df_clustered = sort_category(df)
@@ -249,11 +277,15 @@ def main():
     
     # Apply integrated sentiment-quality analysis (replaces separate sentiment analysis)
     print("🏆 Analyzing videos with integrated sentiment+quality model...")
-    df_analyzed = analyze_video_sentiment_quality(df_clustered)
+    df_analyzed_1 = analyze_video_sentiment_quality(df_clustered)
+
+    # Apply integrated sentiment-quality analysis (replaces separate sentiment analysis)
+    print("🏆 Analyzing videos with societal-value model...")
+    df_analyzed_2 = score_file(df_analyzed_1)
     
     # Filter for quality content using the integrated score
     print("🏆 Filtering for above-average content...")
-    df_filtered = filter_quality_content(df_analyzed)
+    df_filtered = filter_quality_content(df_analyzed_2)
     
     # Enhanced normalization and scoring
     print("📊 Computing scores and normalizing metrics...")
@@ -310,6 +342,10 @@ def main():
     
     print("✅ Analysis complete!")
     print("📊 Generated: integrated_sentiment_quality_analysis.png")
+
+    print("How your video benchmarks amongst your peers:")
+    last_row = df_final.iloc[-1]
+    print(last_row[['video_id', 'quality_sentiment_multiplier', 'social_value_multiplier', 'video_money']])
     
     return df_final, cluster_allocations, fig
 

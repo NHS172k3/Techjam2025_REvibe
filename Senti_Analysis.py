@@ -690,7 +690,7 @@ def analyze_video_quality_sentiment(df):
         
         # Fill missing values
         df['quality_sentiment_score'] = df['quality_sentiment_score'].fillna(0.5)
-        
+
         print(f"✅ Quality+Sentiment analyzer successfully applied to videos")
         return df
         
