@@ -1,6 +1,7 @@
 import './App.css';
 import { useState } from '@lynx-js/react';
 import HomePage from './components/Home.js';
+import VideosPage from './components/Videos.js';
 import NavBar from './components/NavBar.js';
 
 type AppProps = {
@@ -16,7 +17,7 @@ export function App({ onRender }: AppProps) {
   return (
     <view>
       { currentPage === 'home' && <HomePage />}
-
+      { currentPage === 'videos' && <VideosPage />}
       <NavBar setCurrentPage={setCurrentPage} />
     </view>
   );

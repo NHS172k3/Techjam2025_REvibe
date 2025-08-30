@@ -11,7 +11,7 @@ export default function HomePage() {
 
             <view class="card" style="display: flex; justify-content: space-between;">
                 <text style="font-size: 18px; margin-bottom: 16px;">
-                    👁️‍🗨️ Views:
+                    👁️ Views:
                 </text>
                 <text style="font-size: 30px; margin-bottom: 4px;">
                     20,050
@@ -28,7 +28,7 @@ export default function HomePage() {
                 </view>
 
                 <view class="card" style="flex: 1;">
-                    <text style="font-weight: bold;">↱ Shares</text>
+                    <text style="font-weight: bold;">🔁 Shares</text>
                     <text style="margin-top: 8px;">3.1k</text>
                 </view>
 
