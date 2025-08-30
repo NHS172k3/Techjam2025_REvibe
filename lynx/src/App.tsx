@@ -18,7 +18,7 @@ export function App({ onRender }: AppProps) {
     <view>
       { currentPage === 'home' && <HomePage />}
       { currentPage === 'videos' && <VideosPage />}
-      <NavBar setCurrentPage={setCurrentPage} />
+      <NavBar currentPage={currentPage} setCurrentPage={setCurrentPage} />
     </view>
   );
 }

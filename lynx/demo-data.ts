@@ -24,14 +24,14 @@ export const videoData = [
       shares:   [1, 3, 6, 8, 11, 14, 18, 21, 23, 26],
       comments: [0, 2, 4, 5, 7, 9, 11, 13, 14, 15],
     },
-    category: "Education",
+    category: "Cat1",
     categoryPercentage: 95.0,
     engagementZScore: 83.5,
     commentSentimentMultiplier: 1.02,
     societalImpactMultiplier: 1.02,
     aggregateScore: 86.9,
-    totalPayout: "$148.00",
-    filePath: "../assets/education_dist_86_9"
+    totalPayout: 148.00,
+    fileName: "cat1_dist_86_9"
   },
   {
     title: "What is the best cheese?",
@@ -43,14 +43,14 @@ export const videoData = [
       shares:   [0, 1, 2, 4, 6, 8, 11, 13, 15, 18],
       comments: [0, 1, 2, 4, 5, 6, 8, 9, 10, 11],
     },
-    category: "Entertainment",
+    category: "Cat3",
     categoryPercentage: 71.0,
     engagementZScore: 42.5,
     commentSentimentMultiplier: 1.08,
     societalImpactMultiplier: 0.99,
     aggregateScore: 45.5,
-    totalPayout: "$62.00",
-    filePath: "../assets/entertainment_dist_71_0"
+    totalPayout: 62.00,
+    fileName: "cat3_dist_71_0"
   },
   {
     title: "Mobile Development",
@@ -62,13 +62,13 @@ export const videoData = [
       shares:   [0, 1, 1, 2, 3, 4, 5, 5, 6, 7],
       comments: [0, 0, 1, 2, 3, 4, 5, 5, 6, 7],
     },
-    category: "Education",
+    category: "Cat1",
     categoryPercentage: 23.0,
     engagementZScore: 28.7,
     commentSentimentMultiplier: 0.95,
     societalImpactMultiplier: 1.01,
     aggregateScore: 27.5,
-    totalPayout: "0",
-    filePath: "../assets/education_dist_23_0"
+    totalPayout: 0,
+    fileName: "cat1_dist_23_0"
   }
 ];

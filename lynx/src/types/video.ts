@@ -11,7 +11,7 @@ export interface Video {
   datePosted: string;
   category: string;
   categoryPercentage: number;
-  filePath: string;
+  fileName: string;
   metrics: VideoMetrics;
   engagementZScore: number;
   commentSentimentMultiplier: number;

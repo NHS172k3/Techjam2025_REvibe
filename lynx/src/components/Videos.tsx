@@ -25,7 +25,7 @@ export default function VideosPage() {
 
         {
             indivVideoData != null &&
-            <VideoDetails video={indivVideoData} />
+            <VideoDetails video={indivVideoData} setIndivVideoData={setIndivVideoData} />
         }
     </view>
 
