@@ -11,7 +11,7 @@ To test out our algorithm, follow these steps:
 
 a) Clone our repository
 
-b) Download all the libraries required
+b) Download all the libraries required into a python virtual environment
 
     pip install -r requirements.txt
 
