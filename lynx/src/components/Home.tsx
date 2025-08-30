@@ -1,6 +1,23 @@
 import graph from "../assets/overall_chart.png";
+import { videoData } from "../../demo-data.js";
 
 export default function HomePage() {
+
+    const totalViews = videoData
+    .map(video => video.metrics.views.at(-1) || 0)
+    .reduce((sum, val) => sum + val, 0);
+
+    const totalLikes = videoData
+    .map(video => video.metrics.likes.at(-1) || 0)
+    .reduce((sum, val) => sum + val, 0);
+
+    const totalShares = videoData
+    .map(video => video.metrics.shares.at(-1) || 0)
+    .reduce((sum, val) => sum + val, 0);
+
+    const totalComments = videoData
+    .map(video => video.metrics.comments.at(-1) || 0)
+    .reduce((sum, val) => sum + val, 0);
 
     return (
         <view style="padding: 16px; font-family: sans-serif;">
@@ -14,7 +31,7 @@ export default function HomePage() {
                     👁️ Views:
                 </text>
                 <text style="font-size: 30px; margin-bottom: 4px;">
-                    20,050
+                    {totalViews}
                 </text>
             </view>
 
@@ -24,17 +41,17 @@ export default function HomePage() {
 
                 <view class="card" style="flex: 1;">
                     <text style="font-weight: bold;">❤️ Likes</text>
-                    <text style="margin-top: 8px;">12.4k</text>
+                    <text style="margin-top: 8px;">{totalLikes}</text>
                 </view>
 
                 <view class="card" style="flex: 1;">
                     <text style="font-weight: bold;">🔁 Shares</text>
-                    <text style="margin-top: 8px;">3.1k</text>
+                    <text style="margin-top: 8px;">{totalShares}</text>
                 </view>
 
                 <view class="card" style="flex: 1;">
                     <text style="font-weight: bold;">💬 Comment</text>
-                    <text style="margin-top: 8px;">980</text>
+                    <text style="margin-top: 8px;">{totalComments}</text>
                 </view>
 
             </view>
