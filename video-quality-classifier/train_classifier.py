@@ -29,7 +29,7 @@ from src.main import train
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Train Video Quality Analysis Model')
     parser.add_argument('--model-type', choices=['classifier', 'multi-task', 'integrated'], 
-                        default='integrated', 
+                        default='multi-task',  # Change default to multi-task
                         help='Type of model to train')
     args = parser.parse_args()
     

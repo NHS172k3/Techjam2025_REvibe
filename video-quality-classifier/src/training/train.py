@@ -670,3 +670,83 @@ def train_model(model, train_loader, val_loader, num_epochs=3, learning_rate=2e-
     model.load_state_dict(torch.load(best_model_path))
     
     return model
+
+def train_multitask_model(model, train_loader, val_loader, device, epochs=3):
+    optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
+    
+    # Loss functions
+    quality_criterion = nn.BCELoss()  # Binary classification
+    sentiment_criterion = nn.MSELoss()  # Regression
+    
+    # Training loop
+    for epoch in range(epochs):
+        model.train()
+        train_loss = 0.0
+        
+        # Progress bar
+        progress_bar = tqdm(train_loader, desc=f"Epoch {epoch+1}/{epochs}")
+        
+        for batch in progress_bar:
+            # Get inputs
+            input_ids = batch['input_ids'].to(device)
+            attention_mask = batch['attention_mask'].to(device)
+            is_quality = batch['is_quality'].to(device)
+            sentiment_score = batch['sentiment_score'].to(device)
+            
+            # Zero gradients
+            optimizer.zero_grad()
+            
+            # Forward pass
+            quality_pred, sentiment_pred = model(input_ids, attention_mask)
+            
+            # Calculate losses
+            quality_loss = quality_criterion(quality_pred.squeeze(), is_quality)
+            sentiment_loss = sentiment_criterion(sentiment_pred.squeeze(), sentiment_score)
+            
+            # Combined loss (can adjust weights between tasks)
+            loss = 0.5 * quality_loss + 0.5 * sentiment_loss
+            
+            # Backward pass and optimize
+            loss.backward()
+            optimizer.step()
+            
+            # Update progress bar
+            train_loss += loss.item()
+            progress_bar.set_postfix({'loss': train_loss / (progress_bar.n + 1)})
+        
+        # Validation
+        model.eval()
+        val_quality_loss = 0.0
+        val_sentiment_loss = 0.0
+        val_unified_loss = 0.0
+        
+        with torch.no_grad():
+            for batch in val_loader:
+                input_ids = batch['input_ids'].to(device)
+                attention_mask = batch['attention_mask'].to(device)
+                is_quality = batch['is_quality'].to(device)
+                sentiment_score = batch['sentiment_score'].to(device)
+                
+                # Forward pass
+                quality_pred, sentiment_pred = model(input_ids, attention_mask)
+                
+                # Calculate losses
+                val_quality_loss += quality_criterion(quality_pred.squeeze(), is_quality).item()
+                val_sentiment_loss += sentiment_criterion(sentiment_pred.squeeze(), sentiment_score).item()
+                
+                # Optional: calculate unified score loss for comparison
+                unified_pred = model.get_unified_score(input_ids, attention_mask)
+                unified_target = is_quality * sentiment_score + (1 - is_quality) * 0.5
+                val_unified_loss += nn.MSELoss()(unified_pred.squeeze(), unified_target).item()
+        
+        val_quality_loss /= len(val_loader)
+        val_sentiment_loss /= len(val_loader)
+        val_unified_loss /= len(val_loader)
+        
+        print(f"Epoch {epoch+1}/{epochs}")
+        print(f"  Train Loss: {train_loss / len(train_loader):.4f}")
+        print(f"  Val Quality Loss: {val_quality_loss:.4f}")
+        print(f"  Val Sentiment Loss: {val_sentiment_loss:.4f}")
+        print(f"  Val Unified Loss: {val_unified_loss:.4f}")
+        
+    return model

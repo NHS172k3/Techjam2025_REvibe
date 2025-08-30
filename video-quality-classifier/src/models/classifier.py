@@ -114,3 +114,52 @@ class IntegratedQualityModel(nn.Module):
         score = torch.sigmoid(self.unified_score(intermediate)).squeeze(-1)
         
         return score
+
+class MultiTaskQualityModel(nn.Module):
+    def __init__(self, pretrained_model="distilbert-base-uncased"):
+        super().__init__()
+        self.bert = AutoModel.from_pretrained(pretrained_model)
+        
+        # Shared features dimension
+        hidden_size = self.bert.config.hidden_size
+        
+        # Quality detection head (binary classification)
+        self.quality_head = nn.Sequential(
+            nn.Linear(hidden_size, 128),
+            nn.ReLU(),
+            nn.Dropout(0.1),
+            nn.Linear(128, 1)  # Binary output: mentions quality or not
+        )
+        
+        # Sentiment analysis head (regression)
+        self.sentiment_head = nn.Sequential(
+            nn.Linear(hidden_size, 128),
+            nn.ReLU(),
+            nn.Dropout(0.1),
+            nn.Linear(128, 1)  # Continuous output: sentiment score
+        )
+    
+    def forward(self, input_ids, attention_mask):
+        # Shared encoder
+        outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
+        pooled_output = outputs.last_hidden_state[:, 0, :]  # CLS token
+        
+        # Task-specific heads
+        quality_logits = self.quality_head(pooled_output)
+        sentiment_logits = self.sentiment_head(pooled_output)
+        
+        # Apply appropriate activations
+        quality_output = torch.sigmoid(quality_logits)      # 0-1 probability
+        sentiment_output = torch.sigmoid(sentiment_logits)  # 0-1 score
+        
+        return quality_output, sentiment_output
+    
+    def get_unified_score(self, input_ids, attention_mask):
+        """Optional method to get a combined score for backward compatibility"""
+        quality_prob, sentiment_score = self(input_ids, attention_mask)
+        
+        # If quality is mentioned, use sentiment score
+        # If not, use a neutral or slightly lower score
+        unified = quality_prob * sentiment_score + (1 - quality_prob) * 0.5
+        
+        return unified

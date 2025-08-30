@@ -45,21 +45,23 @@ class CommentDataset(Dataset):
             return_tensors='pt'
         )
         
-        # Get label - fix data type based on target column
-        target_value = self.data.iloc[idx][self.target_column]
+        # Get quality label (1=not quality, 0=negative quality, 2=positive quality)
+        quality_label = self.data.iloc[idx]['quality_label']
         
-        # Check if this is for regression (unified_score) or classification
-        if self.target_column == 'unified_score' or 'regression' in self.target_column:
-            # For regression, use float32
-            label = torch.tensor(float(target_value), dtype=torch.float32)
-        else:
-            # For classification, use long
-            label = torch.tensor(int(target_value), dtype=torch.long)
+        # Convert quality_label to binary (is quality related)
+        is_quality = torch.tensor(1.0 if quality_label != 1 else 0.0, dtype=torch.float)
+        
+        # Get sentiment score
+        sentiment_score = torch.tensor(
+            float(self.data.iloc[idx]['sentiment_score']), 
+            dtype=torch.float
+        )
         
         return {
             'input_ids': encoding['input_ids'].flatten(),
             'attention_mask': encoding['attention_mask'].flatten(),
-            'label': label
+            'is_quality': is_quality,
+            'sentiment_score': sentiment_score
         }
 
 class MultiTaskDataset(Dataset):
