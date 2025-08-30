@@ -53,21 +53,41 @@ export default function VideoDetails({
       <view class="card" style="padding: 12px;">
         <text style="font-weight: bold;">Advanced Metrics</text>
 
-        <view style="margin-top: 12px;">
-          <text>📊 Engagement Z-score: {video.engagementZScore}</text>
+        <view style="padding: 16px; border-radius: 8px; background-color: rgb(33,33,33); text-align: center;">
+
+            <view style="display: flex; justify-content: space-around; margin-top: 12px;">
+                <view style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+                    <text style="font-size: 20px;">{video.engagementZScore} ×</text>
+                    <text></text>
+                    <text style="display: block; font-weight: bold; font-size: 10px;">Engagement</text>
+                    <text style="font-size: 10px;">Score</text>
+                </view>
+                <view style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+                    <text style="font-size: 20px;">{video.commentSentimentMultiplier} ×</text>
+                    <text></text>
+                    <text style="display: block; font-weight: bold; font-size: 10px;">Comment</text>
+                    <text style="font-size: 10px;">Sentiment</text>
+                </view>
+                <view style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+                    <text style="font-size: 20px;">{video.societalImpactMultiplier} =</text>
+                    <text></text>
+                    <text style="display: block; font-weight: bold; font-size: 10px;">Societal</text>
+                    <text style="font-size: 10px;">Impact</text>
+                </view>
+                <view style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+                    <text style="font-size: 20px; font-weight: bold">{video.aggregateScore}</text>
+                    <text></text>
+                    <text style="display: block; font-weight: bold; font-size: 10px;">Aggregate</text>
+                    <text style="font-size: 10px; font-weight: bold;">Score</text>
+                </view>
+            </view>
+
+            
+
         </view>
-        <view>
-          <text>🧠 Comment Sentiment: {video.commentSentimentMultiplier}</text>
-        </view>
-        <view>
-          <text>🌍 Societal Impact: {video.societalImpactMultiplier}</text>
-        </view>
-        <view>
-          <text>⭐ Aggregate Score: {video.aggregateScore}</text>
-        </view>
-        <view>
-          <text>💵 Total Payout: ${video.totalPayout}</text>
-        </view>
+
+        <text style="margin: 10px 0px; font-weight: bold;">Total Payout: ${video.totalPayout.toFixed(2)}</text>
+        
       </view>
     </view>
   );
