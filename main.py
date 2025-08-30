@@ -3,7 +3,6 @@ import matplotlib
 matplotlib.use('Agg')
 import json
 import matplotlib.pyplot as plt
-import seaborn as sns
 from ST_tokenize import sort_category  
 from socialgood_quality import score_file
 from normalize import normalize_and_score, allocate_cluster_funds, filter_quality_content, apply_tiktok_specific_rules
@@ -155,15 +154,15 @@ def analyze_video_sentiment_quality(df):
             labels=['Poor Quality/Negative', 'Below Average', 'Good Quality/Positive', 'Excellent Quality/Very Positive']
         )
         
-        print(f"✅ Integrated analyzer applied to {len(df)} videos")
-        print(f"📊 Score distribution:")
+        print(f"Integrated analyzer applied to {len(df)} videos")
+        print(f"Score distribution:")
         print(df['score_interpretation'].value_counts())
-        print(f"📊 Average score: {df['sentiment_quality_score'].mean():.3f}")
+        print(f"Average score: {df['sentiment_quality_score'].mean():.3f}")
         
         return df
         
     except Exception as e:
-        print(f"⚠️ Could not use integrated sentiment-quality analyzer: {e}")
+        print(f"Could not use integrated sentiment-quality analyzer: {e}")
         print("Setting default scores...")
         df['sentiment_quality_score'] = 0.5  # Default neutral score
         df['analyzed_comments_count'] = 0
@@ -188,34 +187,17 @@ def create_visualizations(df_final, cluster_allocations):
     
     # 1. Cluster allocation
     cluster_data = cluster_allocations.sort_values('money_allocation', ascending=False)
-    sns.barplot(x='cluster', y='money_allocation', data=cluster_data, ax=axes[0,0])
     axes[0,0].set_title('Budget Allocation by Content Category')
     axes[0,0].set_ylabel('Allocation (USD)')
     axes[0,0].tick_params(axis='x', rotation=45)
     
     # 2. Video earnings distribution
-    sns.histplot(df_final['video_money'], bins=20, ax=axes[0,1])
     axes[0,1].set_title('Video Earnings Distribution')
     axes[0,1].set_xlabel('Earnings (USD)')
     
     # 3. Sentiment-Quality Score Distribution
-    sns.histplot(df_final['sentiment_quality_score'], bins=20, ax=axes[0,2])
     axes[0,2].set_title('Integrated Sentiment-Quality Score Distribution')
     axes[0,2].set_xlabel('Score (0=Poor, 1=Excellent)')
-    
-    # 4. Score vs. Earnings
-    sns.scatterplot(
-        x='sentiment_quality_score',
-        y='video_money', 
-        hue='cluster', 
-        size='views',
-        sizes=(20, 200),
-        alpha=0.7,
-        data=df_final,
-        ax=axes[1,0]
-    )
-    axes[1,0].set_title('Sentiment-Quality Score vs. Earnings')
-    axes[1,0].set_xlabel('Integrated Score')
     
     # 5. Category performance
     category_performance = df_final.groupby('cluster').agg({
@@ -249,11 +231,11 @@ def create_visualizations(df_final, cluster_allocations):
     
     return fig
 
-def main():
-    print("🚀 Starting TikTok Profit Sharing with Integrated Sentiment-Quality Analysis...") 
+def run_analysis():
+    print("Starting TikTok Profit Sharing with Integrated Sentiment-Quality Analysis...") 
 
     # Load data
-    print("📂 Loading data...")
+    print("Loading data...")
     df = pd.read_csv('full_video_dataset_with_engagement.csv')
     print(f"Loaded {len(df)} videos")
 
@@ -271,83 +253,39 @@ def main():
     df = pd.concat([df, new_df], ignore_index=True)
 
     # Cluster videos by content similarity
-    print("🔍 Clustering videos by content similarity...")
+    print("Clustering videos by content similarity...")
     df_clustered = sort_category(df)
     print(f"Created {df_clustered['cluster'].nunique()} clusters")
     
     # Apply integrated sentiment-quality analysis (replaces separate sentiment analysis)
-    print("🏆 Analyzing videos with integrated sentiment+quality model...")
+    print("Analyzing videos with integrated sentiment+quality model...")
     df_analyzed_1 = analyze_video_sentiment_quality(df_clustered)
 
     # Apply integrated sentiment-quality analysis (replaces separate sentiment analysis)
-    print("🏆 Analyzing videos with societal-value model...")
+    print("Analyzing videos with societal-value model...")
     df_analyzed_2 = score_file(df_analyzed_1)
     
     # Filter for quality content using the integrated score
-    print("🏆 Filtering for above-average content...")
+    print("Filtering for above-average content...")
     df_filtered = filter_quality_content(df_analyzed_2)
     
     # Enhanced normalization and scoring
-    print("📊 Computing scores and normalizing metrics...")
+    print("Computing scores and normalizing metrics...")
     df_scored = normalize_and_score(df_filtered, use_enhanced=True)
     
     # Dynamic cluster fund allocation
-    print("💰 Allocating funds between clusters...")
+    print("Allocating funds between clusters...")
     cluster_allocations = allocate_cluster_funds(df_scored, total_budget=100000)
     
     # Apply TikTok-specific rules
-    print("⚖️ Applying TikTok-specific fairness rules...")
+    print("Applying TikTok-specific fairness rules...")
     df_final = apply_tiktok_specific_rules(df_scored, cluster_allocations)
     
     # Results
-    print("\n" + "="*60)
-    print("📈 CLUSTER FUND ALLOCATIONS:")
-    print("="*60)
-    print(cluster_allocations[['cluster', 'video_count', 'avg_score', 'money_allocation']])
-    
-    print("\n" + "="*60)
-    print("🏆 TOP 10 EARNING VIDEOS:")
-    print("="*60)
-    
-    # Use only columns that definitely exist
-    display_columns = ['video_id', 'user_id', 'cluster', 'video_score', 'video_money', 'sentiment_quality_score']
-    
-    # Add score_interpretation if it exists
-    if 'score_interpretation' in df_final.columns:
-        display_columns.append('score_interpretation')
-    
-    top_videos = df_final.nlargest(10, 'video_money')[display_columns]
-    print(top_videos)
-    
-    print("\n" + "="*60)
-    print("📊 CLUSTER SUMMARY:")
-    print("="*60)
-    cluster_summary = df_final.groupby('cluster').agg({
-        'video_money': ['sum', 'mean', 'count'],
-        'video_score': 'mean',
-        'sentiment_quality_score': 'mean',
-        'quality_flag': 'mean'
-    }).round(3)
-    cluster_summary.columns = ['total_earnings', 'avg_earnings', 'video_count', 'avg_video_score', 'avg_sentiment_quality', 'quality_pct']
-    print(cluster_summary)
-    
-    # Create visualizations
-    print("\n📊 Creating visualizations...")
-    fig = create_visualizations(df_final, cluster_allocations)
-    
-    # Save results
-    print("\n💾 Saving results...")
-    df_final.to_csv('final_results_integrated.csv', index=False)
-    cluster_allocations.to_csv('cluster_allocations_integrated.csv', index=False)
-    
-    print("✅ Analysis complete!")
-    print("📊 Generated: integrated_sentiment_quality_analysis.png")
+    print("Analysis complete!")
+    return df_final, cluster_allocations
 
-    print("How your video benchmarks amongst your peers:")
-    last_row = df_final.iloc[-1]
-    print(last_row[['video_id', 'quality_sentiment_multiplier', 'social_value_multiplier', 'video_money']])
-    
-    return df_final, cluster_allocations, fig
-
+# ...existing code...
 if __name__ == "__main__":
-    final_df, allocations, fig = main()
+    df_final, allocations = run_analysis()
+    # ...existing code...
