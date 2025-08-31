@@ -19,9 +19,9 @@ c) Run our streamlit web app
 
     streamlit run app.py
 
-d) Input your API key in the .env setting
+d) Input your API key for Gemini video description generator in the .env setting
 
-    API_KEY = <Your_API_Key>
+    GEMINI_API_KEY = <Your_API_Key>
 
 Upload your video and wait for our algorithm to do its work!  (The first set-up will take a while due to the downloading of models.)
 
