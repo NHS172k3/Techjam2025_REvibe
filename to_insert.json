@@ -1,15 +1,16 @@
-[
-  {
-    "video_id": 3001,
-    "user_id": 1,
-    "views": 14055,
-    "captions": "fps, gaming",
-    "subtitles": "Here’s a ranked gaming match with commentary on positioning and decision making.",
-    "top_comments": "Not useful at all. | Too repetitive and unoriginal. | Disliked the presentation style. | Really boring, I didn't enjoy this. | Poor quality, needs improvement.",
-    "likes": 1195,
-    "comment_count": 94,
-    "shares": 89,
-    "saved_count": 194,
-    "viewer_retention_percentage": 75
-  }
-]
+{
+  "video_id": "user_video_3190",
+  "user_id": "new_user_001",
+  "views": 10000,
+  "likes": 1200,
+  "comment_count": 150,
+  "shares": 80,
+  "saved_count": 45,
+  "viewer_retention_percentage": 75.5,
+  "captions": "Check out this amazing content! #viral #fyp",
+  "subtitles": "AI will analyze your video and generate this automatically...",
+  "top_comments": "This is amazing! | Love this content | Great video | So cool! | Awesome work",
+  "video_file": "videoplayback.mp4",
+  "use_ai_description": true,
+  "combine_descriptions": false
+}

@@ -3,7 +3,7 @@ import argparse
 import math
 import os
 import re
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Union
 
 import numpy as np
 import pandas as pd
@@ -49,12 +49,13 @@ EDU_POS = {
     "tutorial", "how to", "step by step", "lecture", "explains", "explained",
     "demonstration", "exercise", "walkthrough", "course", "class", "syllabus",
     "definitions", "concepts", "example", "examples", "practice", "quiz",
-    "guide", "learn", "learning", "teaches", "teaching", "workshop", "school"
+    "guide", "learn", "learning", "teaches", "teaching", "workshop", "school",
     "lesson", "curriculum", "study guide", "exam prep", "revision", "homework help",
     "training", "bootcamp", "masterclass", "seminar", "presentation", "educational",
     "tutorial series", "knowledge", "instruction", "explanation", "tips and tricks",
     "faq", "reference", "whiteboard", "slides", "case study", "lab session",
-    "exercise set", "coding challenge", "walk through", "mentorship", "hands-on"
+    "exercise set", "coding challenge", "walk through", "mentorship", "hands-on",
+    "informative", "instructional", "skills", "technique", "method", "process"
 }
 EDU_NEG = {
     "prank", "reaction video", "compilation", "meme", "vlog", "rant",
@@ -78,7 +79,8 @@ ECO_POS = {
     "urban farming", "vertical farming", "organic", "permaculture",
     "sustainable fashion", "fair trade", "eco-friendly", "water conservation",
     "solar panels", "wind turbines", "green tech", "decarbonization",
-    "offsetting", "carbon credits", "renewable transition", "fossil fuel phase-out"
+    "offsetting", "carbon credits", "renewable transition", "fossil fuel phase-out",
+    "environmental awareness", "nature conservation", "wildlife protection"
 }
 ECO_NEG = {
     "climate hoax", "anti-environment", "anti environmental",
@@ -153,23 +155,48 @@ def score_captions(
 
 
 def score_file(
-    input_df,
-    text_col="subtitles",
-    nli_model="facebook/bart-large-mnli",
-    device=-1
-):
-
-    df = input_df
+    input_df: Union[pd.DataFrame, str],
+    text_col: str = "subtitles",
+    nli_model: str = "facebook/bart-large-mnli",
+    device: int = -1
+) -> pd.DataFrame:
+    """
+    Score a DataFrame or CSV file for educational and environmental content.
+    
+    Args:
+        input_df: Either a pandas DataFrame or path to a CSV file
+        text_col: Column name containing the text to analyze
+        nli_model: Model name for zero-shot classification
+        device: Device for model (-1 for CPU, 0+ for GPU)
+    
+    Returns:
+        DataFrame with added scoring columns
+    """
+    
+    # Handle both DataFrame and file path inputs
+    if isinstance(input_df, str):
+        if not os.path.exists(input_df):
+            raise FileNotFoundError(f"Input file not found: {input_df}")
+        df = pd.read_csv(input_df)
+    else:
+        df = input_df.copy()
 
     if text_col not in df.columns:
-        raise KeyError(f"Input file must contain column '{text_col}'")
+        raise KeyError(f"Input data must contain column '{text_col}'")
 
     if not _ZS_AVAILABLE:
         raise RuntimeError("transformers not installed. Run: pip install transformers torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu")
+    
+    print("Initializing zero-shot classifier...")
     zsc = ZeroShotScorer(model_name=nli_model, device=device)
 
     edus, ecos, socs, edu_kw_list, edu_zs_list, eco_kw_list, eco_zs_list = ([] for _ in range(7))
-    for txt in df[text_col].fillna("").astype(str).tolist():
+    
+    print(f"Processing {len(df)} entries...")
+    for i, txt in enumerate(df[text_col].fillna("").astype(str).tolist()):
+        if i % 10 == 0:
+            print(f"  Processing entry {i+1}/{len(df)}")
+        
         edu, eco, soc, comp = score_captions(txt, zsc=zsc)
         edus.append(edu)
         ecos.append(eco)
@@ -195,8 +222,60 @@ def score_file(
     else:
         out["total_score"] = 0.5
 
-    out["social_value_multiplier"] = 0.9 + 0.2 * out["total_score"]
+    # UPDATED: Social multiplier now 0.9 to 1.1 instead of 0.9 to 1.1
+    out["social_value_multiplier"] = 0.9 + 0.2 * out["total_score"]  # 0.9 + (0 to 0.2) = 0.9 to 1.1
 
     if "score_society_contributing" in out.columns:
         out = out.drop(columns=["score_society_contributing"])    
+    
+    print("Analysis complete!")
     return out
+
+def analyze_single_text(text: str, nli_model: str = "facebook/bart-large-mnli") -> Dict:
+    """
+    Analyze a single text string for educational and environmental content.
+    
+    Args:
+        text: Text to analyze
+        nli_model: Model name for zero-shot classification
+    
+    Returns:
+        Dictionary with scoring results
+    """
+    if not _ZS_AVAILABLE:
+        raise RuntimeError("transformers not installed. Run: pip install transformers torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu")
+    
+    zsc = ZeroShotScorer(model_name=nli_model, device=-1)
+    edu, eco, soc, comp = score_captions(text, zsc=zsc)
+    
+    return {
+        "educational_score": edu,
+        "environmental_score": eco,
+        "social_value_score": soc,
+        "components": comp
+    }
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Score video subtitles for educational and environmental content")
+    parser.add_argument("--input", "-i", type=str, help="Input CSV file path")
+    parser.add_argument("--output", "-o", type=str, help="Output CSV file path")
+    parser.add_argument("--text_col", type=str, default="subtitles", help="Column name containing text to analyze")
+    parser.add_argument("--model", type=str, default="facebook/bart-large-mnli", help="NLI model for zero-shot classification")
+    parser.add_argument("--device", type=int, default=-1, help="Device for model (-1 for CPU, 0+ for GPU)")
+    
+    args = parser.parse_args()
+    
+    if args.input:
+        results = score_file(
+            input_df=args.input,
+            text_col=args.text_col,
+            nli_model=args.model,
+            device=args.device
+        )
+        
+        if args.output:
+            results.to_csv(args.output, index=False)
+            print(f"Results saved to: {args.output}")
+        else:
+            print(results.head())
